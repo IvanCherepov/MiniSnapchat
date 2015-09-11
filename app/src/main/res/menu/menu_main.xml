@@ -2,6 +2,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_edit_friends"
+        android:orderInCategory="100"
+        android:title="@string/menu_edit_friends_label"
+        app:showAsAction="never" />
+
     <item
         android:id="@+id/action_logout"
         android:orderInCategory="100"
@@ -9,8 +16,10 @@
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_edit_friends"
+        android:id="@+id/action_camera"
         android:orderInCategory="100"
-        android:title="@string/menu_edit_friends_label"
-        app:showAsAction="never" />
+        android:title="@string/menu_camera_lable"
+        android:icon="@mipmap/ic_action_camera"
+        app:showAsAction="always" />
+
 </menu>
