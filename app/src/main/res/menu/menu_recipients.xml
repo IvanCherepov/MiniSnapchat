@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ubc.ivan.minisnapchat.RecipientsActivity"
+    tools:ignore="AppCombatResource">
+
+    <item
+        android:id="@+id/action_send"
+        android:icon="@drawable/ic_action_send_now"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/menu_send_label"
+        android:visible="false" />
+</menu>
