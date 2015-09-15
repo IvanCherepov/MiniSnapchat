@@ -14,12 +14,18 @@
         android:orderInCategory="100"
         android:title="@string/menu_log_out_menu"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_text"
+        android:icon="@drawable/ic_message_chat"
+        android:orderInCategory="100"
+        android:title="@string/menu_camera_lable"
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/action_camera"
-        android:orderInCategory="100"
-        android:title="@string/menu_camera_lable"
         android:icon="@mipmap/ic_action_camera"
+        android:orderInCategory="100"
+        android:title="@string/menu_text_lable"
         app:showAsAction="always" />
 
 </menu>

@@ -50,4 +50,5 @@
     <string name="success_message">Message sent!</string>
     <string name="error_sending_message">There was an error sending your message. Please try again.</string>
     <string name="title_activity_view_image">Mini Snapchat</string>
+    <string name="menu_text_lable">Message</string>
 </resources>
